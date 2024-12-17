@@ -12,11 +12,11 @@ prompt: .asciz "Enter a number: "
 	
 	
 main:
-	# Ecample: Load a number directly in x10 
+	# Example: Load a number directly in x10 
 	li x10, 7
 	
 	
-	#check if the number is odd or even
+	# Check if the number is odd or even
 	
 	andi x11, x10, 1 # bitwise AND with 1 (check the LSB of x10 
 	
